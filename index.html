@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<!-- El idioma -->
 <html lang="en">
 <head>
-    <!-- The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world! -->
     <meta charset="UTF-8">
-    <!--https://www.w3schools.com/tags/tag_meta.asp-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <link rel="stylesheet" type=”text/css” href="style.css">
+    <title>Página de inicio</title>
 </head>
-<body>
-    <h1>Hola mundo</h1>
-    <h2>Hej Hej!</h2>
-    <h3><strong>Hello word!</strong></h3>
-    <p>This is a <br> paragraph with a line break and a  <a href="https://www.w3schools.com">hyperkink</a> to a very good tutorial web page.</p> 
-
-    <form>
-        <p>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" title='Introduce your name' autocomplete="name"/>
-        </p>
-        <p>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" title='Introduce your password' autocomplete="new-password" required/>
-        </p>
-        <p>
-        <input type="radio" name="gender" value="male" />Male<br />
-        <input type="radio" name="gender" value="female" />Female<br />
-        <input type="radio" name="gender" value="other" title='No binary'/>Other
-        </p>
-        <p>
-            <input list="Options" title='Elige lista'/>
-            <datalist id="Options">
-            <option value="Option1"></option>
-            <option value="Option2"></option>
-            <option value="Option3"></option>
-            </datalist>
-        </p>
-        <input type="submit" title='Subir!' value="Submit" />
-      </form>
-      
-
-</body>
+  <body>
+    <header class="header-menu">
+      <nav>
+        <ul>
+          <li>Menú ítem</li>
+          <li>Menú ítem</li>
+          <li>Menú ítem</li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article>
+        <header>
+          <h2>Learn HTML</h2>
+          <small>Hyper Text Markup Language</small>
+        </header>
+        <p>Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch. HTML isn't difficult, so hoping you will enjoy learning.</p>
+      </article>
+      <article>
+        <header>
+          <h2>Start Quiz "HTML Basic"</h2>
+          <small>You can test your HTML skills with W3docs' Quiz.</small>
+        </header>
+        <p>You will get 5% for each correct answer for single choice questions. In multiple choice question it might be up to 5%. At the end of the Quiz, your total score will be displayed. Maximum score is 100%.</p>
+      </article>
+    </section>
+    <aside>
+      <h2>Our Books</h2>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>PHP</p>
+    </aside>
+    <footer>
+      <small>Company © W3docs. All rights reserved.</small>
+    </footer>
+  </body>
 </html>
